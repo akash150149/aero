@@ -36,6 +36,7 @@ A full-stack flight booking web application where users can search for available
 
 ## 🧪 Folder Structure
 
+<pre>
 flight-booking-app/
 ├── backend/
 │   ├── controllers/
@@ -77,7 +78,7 @@ flight-booking-app/
 ├── README.md
 └── package-lock.json
 
-
+</pre>
 ---
 
 ## 🧰 Getting Started
