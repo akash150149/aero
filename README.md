@@ -111,15 +111,15 @@ Firstly Register Yourself and then login using that same email id and password
 ## 🖼️ Screenshots
 
 ### 🔹 Homepage
-![Homepage](./public/home.png)
+![Homepage](./client/public/home.png)
 
 ### 🔹 Booking Page
-![Booking Page](./public/bookings.png)
+![Booking Page](./client/public/bookings.png)
 
 ### 🔹 Admin Panel
-![Admin Panel](./public/addflight.png)
+![Admin Panel](./client/public/addflight.png)
 
 ### 🔹 Flights
-![Flights](./public/flights.png)
+![Flights](./client/public/flights.png)
 
 
