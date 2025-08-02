@@ -108,4 +108,18 @@ Firstly Register Yourself and then login using that same email id and password
 ✅ Admin dashboard UI improvements
 
 
+## 🖼️ Screenshots
+
+### 🔹 Homepage
+![Homepage](./client/public/home.png)
+
+### 🔹 Booking Page
+![Booking Page](./client/public/bookings.png)
+
+### 🔹 Admin Panel
+![Admin Panel](./client/public/addflight.png)
+
+### 🔹 Flights
+![Flights](./client/public/flights.png)
+
 
