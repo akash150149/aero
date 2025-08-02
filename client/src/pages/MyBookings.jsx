@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../axios";
 
 const MyBookings = () => {
   const [bookings, setBookings] = useState([]);
@@ -9,7 +9,7 @@ const MyBookings = () => {
     try {
       const token = localStorage.getItem("token");
 
-     const res = await axios.get("http://localhost:3001/api/bookings/my-bookings", {
+     const res = await axios.get("/api/bookings/my-bookings", {
   headers: {
     Authorization: `Bearer ${token}`,
   },

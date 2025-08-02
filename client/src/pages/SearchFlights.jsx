@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../axios";
 
 const SearchFlights = () => {
   const [flights, setFlights] = useState([]);
@@ -7,7 +7,7 @@ const SearchFlights = () => {
   useEffect(() => {
     const fetchFlights = async () => {
       try {
-        const res = await axios.get("http://localhost:3001/api/flights");
+        const res = await axios.get("/api/flights");
         setFlights(res.data);
       } catch (err) {
         console.error(err);

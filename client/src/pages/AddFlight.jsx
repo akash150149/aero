@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+import axios from "../axios";
 // const token = localStorage.getItem("token"); // get JWT from login
 
 // await axios.post(
@@ -33,7 +33,7 @@ const AddFlight = () => {
       const token = localStorage.getItem("token");
   
       await axios.post(
-        "http://localhost:3001/api/flights/add",
+        "/api/flights/add",
         formData,
         {
           headers: {
